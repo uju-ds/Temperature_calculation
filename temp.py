@@ -1,10 +1,5 @@
 import streamlit as st
-st.write("Visit [Google](https://www.google.com)")
-# Input for URL
-url = st.text_input("Enter a URL:", "https://www.google.com")
 
-# Display dynamic link
-st.markdown(f"[Click here to visit]({url})")
 # App Title
 st.write("""
 # Simple Temperature Conversion App
